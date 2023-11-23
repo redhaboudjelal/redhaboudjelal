@@ -1,0 +1,43 @@
+/*Appliquer du style à toutes les listes*/
+ul {
+	background-color: grey;
+	color: yellow;
+}
+/*appliquer du style a un ID*/
+#style-ul {
+	padding: 300px;
+}
+.style-ul {color: yellow;
+background-color: grey;
+font-weight: bold;
+} 
+
+.fontSize20{
+	font-size: 20px;
+}
+.page{
+	background-color: grey;
+	color: yellow;
+}
+
+.btn-submit {
+  appearance:  none;
+  padding:10px 20px 10px 20px;
+  background-color:rgb(255, 255, 0);
+  border-radius: 5px;
+  font-size: 15px ;
+  box-shadow:6px 8px 29px -7px #000000;
+  cursor: pointer;
+  border: none
+}
+ 
+.btn-submit:hover{
+background-color: rgb(240, 195, 0);
+}
+
+.fond {
+    background-image: url("83516.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

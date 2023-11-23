@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&family=Oswald:wght@300&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0 2%;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+nav {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    background-image: linear-gradient(to right, black, gainsboro);
+}
+
+nav .profile{
+    display: flex;
+    align-items: center;
+
+}
+nav .profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+nav .profile h1{
+    font-size: 15px;
+    margin-left: 10px;
+    color: lightgreen;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    margin-left: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+
+nav ul a{
+    color: black;
+}
+nav ul li:hover{
+    border-bottom-color: lightgreen;
+}
+
+@media screen and (max-width: 700px){
+    nav {
+        justify-content: center;
+    }
+    nav ul{
+        display: none;
+    }
+
+    .page-content header{
+        margin-top: 10%;
+        max-width: 100%;
+    }
+
+    .page-content .projects-section{
+        margin-top: 15%;
+    }
+
+    .page-content .projects-section h1{
+        font-size: 1.5em;
+    }
+
+    .page-content .projects-section .projects .project{
+        margin-right: 0;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+
+    footer{
+        justify-content: flex-start;
+    }
+
+    footer .column{
+        width: 80%;
+    }
+}
+
+.page-content{
+    margin: 4%;
+}
+
+.page-content header{
+    margin-top: 5%;
+    max-width: 80%;
+}
+
+.page-content header h1{
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'oswald',sans-serif;
+    font-size: 6vw;
+    color: lightgreen;
+}
+
+.page-content header p{
+    line-height: 30px;
+    color: lightgreen;
+    margin-right: 75px;
+
+}
+
+header button a{
+    text-decoration: none;
+    color: lightgreen;
+}
+
+.page-content header button {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding left: 0;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+.page-content header button:hover{
+    color: gainsboro;
+    border-bottom-color: lightgreen;
+}
+
+.page-content .presentation-image{
+    margin-top: 5%;
+}
+
+.page-content .presentation-image img{
+    max-width: 100%;
+    height: auto;
+    transition: filter 0.5s;
+    border-radius: 25px;
+
+}
+
+.page-content .presentation-image img:hover{
+    filter: brightness(50%);
+}
+
+.page-content .projects-section{
+    margin-top: 6%;
+}
+.page-content .projects-section h2{
+    font-family: 'oswald',sans-serif;
+    text-transform: uppercase;
+    font-size: 3vw;
+    color: lightgreen;
+}
+
+.page-content .projects-section .projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page-content .projects-section .projects .project{
+    max-width: 195px;
+    margin-right: 60px;
+}
+
+.page-content .projects-section .projects .project h4{
+    margin: 0;
+    color: lightgreen;
+
+}
+
+.page-content .projects-section .projects .project .description{
+    font-size: 15px;
+    color: lightgreen;
+}
+
+footer{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
+footer .colonne p{
+      font-size: 12px;
+      color: #ccc;
+}
+
+footer .colonne img{
+    width: 50pxpx;
+    height: 50px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+nav ul li a:visited{
+    color: black;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+body{
+    background-image: linear-gradient(to right, black, gainsboro);
+}
+
+head{
+     background-image: linear-gradient(to right, black, gainsboro);
+}
+
+
+.page-content .parcour-pro {
+     margin-top: 6%;
+}
+
+.page-content .parcour-pro h2 {
+    font-family:'oswald', sans-serif ;
+    text-transform: uppercase;
+    font-size: 3vw;
+    color: lightgreen;
+}
+
+.page-content .parcour-pro .parcours {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page-content .parcour-pro .parcours .parcour {
+    max-width: 195px;
+    margin-right: 60px;
+}
+
+.page-content .parcour-pro .parcours .parcour h4 {
+    margin: 0;
+    color: lightgreen;
+}
+
+.page-content .parcour-pro .parcours .parcour .description {
+    font-size: 15px;
+    color: lightgreen;
+}
+
+.page-content .parcour-pro .parcours .parcour .dates {
+    font-size: 17px;
+    color: lightgreen;
+}
+
+.page-content .mes-projets {
+     margin-top: 6%;
+}
+
+.page-content .mes-projets h2 {
+    font-family:'oswald', sans-serif ;
+    text-transform: uppercase;
+    font-size: 3vw;
+    color: lightgreen;
+}
+
+.page-content .mes-projets .projets {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page-content .mes-projets .projets .projet {
+    max-width: 195px;
+    margin-right: 60px;
+    color: lightgreen;
+}
+
+.page-content .mes-projets .projets .projet h4 {
+    margin: 0;
+}
+
+.page-content .mes-projets .projets .projet a {
+    text-decoration: none;
+    color: lightgreen;
+}
+
+.page-content .mes-projets .projets .projet .description {
+    font-size: 15px;
+}
+
+.page-content .mes-projets .projets .projet .dates {
+    font-size: 17px;
+    color:lightgreen ;
+}
+
+.page-content .bas-image{
+    margin-top: 5%;
+}
+
+.page-content .bas-image img{
+    max-width: 100%;
+    height: auto;
+    transition: filter 0.5s;
+    border-radius: 25px;
+}
+
+.page-content .bas-image img:hover{
+    filter: brightness(50%);
+}
+
+.page-content .milieu-image{
+    margin-top: 5%;
+}
+
+.page-content .milieu-image img{
+    max-width: 100%;
+    height: auto;
+    transition: filter 0.5s;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+
+.page-content .milieu-image img:hover{
+    filter: brightness(50%);
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(to right, black, gainsboro);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: lightgreen;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #e6e6e6;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 3px #33b5e5;
+}
+
+input[type="submit"] {
+  background-color: #33b5e5;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0099cc;
+}
+
+h2{
+    color: lightgreen;
+}
+button{
+    background-color: lightgreen;.download-button
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.page-content .right .container a{
+    text-decoration: none;
+}
+
+/* Style du conteneur du bouton */
+.download-button {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Style du bouton */
+.download-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: lightgreen; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s ease; /* Transition de la couleur de fond */
+}
+
+/* Style du bouton au survol */
+.download-button a:hover {
+    background-color: lightgreen; /* Nouvelle couleur de fond au survol */
+}
+

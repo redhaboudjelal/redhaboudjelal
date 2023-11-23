@@ -1,0 +1,20 @@
+/*téléphone*/
+@media screen and (max-width:  1280px){
+	.p200orange{
+		font-size: 60px;
+	}
+}
+
+/*tablettes*/
+@media all and (min-width:  701px) and (max-width: 1080px){
+	.p200orange{
+		font-size: 100px;
+	}
+}
+
+/*ordinateur*/
+@media all and (min-width: 1081px){
+	.p200orange{
+		font-size: : 150px;
+	}
+}
